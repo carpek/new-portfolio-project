@@ -11,6 +11,20 @@ body {
 
 }
 
+footer {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #455d7a;
+}
+
+a:visited {
+    color: #f95959;
+}
+
 .buttongroup {
     color: #e3e3e3; 
     border:1px solid #f95959;
