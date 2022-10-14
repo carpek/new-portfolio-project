@@ -1,0 +1,20 @@
+root {
+   background-color: blanchedalmond;
+   color: #233142; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #233142;
+
+}
+
+h1, h2 {
+   font-family: 'Titillium Web', sans-serif;
+   color: #f95959; 
+}  
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #455d7a;
+}
