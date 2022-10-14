@@ -1,20 +1,42 @@
 root {
-   background-color: blanchedalmond;
+   background-color: #e3e3e3;
    color: #233142; 
+    --heading-font-family:'Titillium Web', sans-serif;
+    --default-font-family:'Poppins', sans-serif;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--default-font-family);
     color: #233142;
 
 }
 
+.buttongroup {
+    color: #e3e3e3; 
+    border:1px solid #f95959;
+    background-color: #f95959;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.buttongroup:hover {
+background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+color: #e3e3e3; 
+border:1px solid #233142;
+transition: all 400ms ease-in-out;
+}
+
+.hero {
+    padding: 15px 30px;
+    text-align: center;
+}
+
 h1, h2 {
-   font-family: 'Titillium Web', sans-serif;
+   font-family: var(--heading-font-family);
    color: #f95959; 
 }  
 
 h3 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--heading-font-family);
     color: #455d7a;
 }
