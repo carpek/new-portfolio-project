@@ -15,14 +15,37 @@ footer {
     text-align: center;
 }
 
+.contactme a {
+    text-decoration: none;
+    color: #455d7a;
+
+}
+
+.contactme a:hover {
+    color: #e3e3e3; 
+    text-decoration: none;
+    background: linear-gradient(to top, #233142 0%, rgb(83, 120, 149) 100%);
+    border:1px solid #233142;
+    transition: all 400ms ease-in-out;
+}
+
+.contactme a:visited {
+    color: #f95959;
+    background-color: #e3e3e3;
+    color: #f95959;
+    border: 1px solid #f95959;
+}
+
 .link {
     text-decoration: none;
     font-weight: lighter;
     color: #455d7a;
 }
 
-a:visited {
+.link a:visited {
+    background-color: #e3e3e3;
     color: #f95959;
+    border: 1px solid #f95959;
 }
 
 .buttongroup {
@@ -34,8 +57,9 @@ a:visited {
 }
 
 .buttongroup:hover {
-background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
 color: #e3e3e3; 
+text-decoration: none;
+background: linear-gradient(to top, #233142 0%, rgb(83, 120, 149) 100%);
 border:1px solid #233142;
 transition: all 400ms ease-in-out;
 }
