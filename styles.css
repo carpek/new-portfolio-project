@@ -1,5 +1,5 @@
 root {
-   background-color: #e3e3e3;
+   background-color: ##e3e3e3; 
    color: #233142; 
     --heading-font-family:'Titillium Web', sans-serif;
     --default-font-family:'Poppins', sans-serif;
@@ -53,4 +53,16 @@ h1, h2 {
 h3 {
     font-family: var(--heading-font-family);
     color: #455d7a;
+}
+
+.project-background {
+background-color: whitesmoke;
+border: 1px solid whitesmoke;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 20% 10% ;
+}
+
+.project-text {
+    padding: 30px;
+background-color: whitesmoke;
 }
