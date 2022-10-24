@@ -93,6 +93,39 @@ h3 {
     color: #455d7a;
 }
 
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+display: inline;
+list-style: none;
+line-height: 35px;
+margin-left: 15px;
+}
+
+nav a {
+font-family: var(--default-font-family);
+display: inline;
+color: #233142;
+text-decoration: none;
+margin-left: 15px;
+}
+
+nav a:hover,
+a:active {
+    color: #f95959;
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline;
+    color: #233142;
+    max-width: 125px;
+}
+
 .project-background {
 background-color: whitesmoke;
 border: 1px solid whitesmoke;
