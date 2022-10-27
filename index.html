@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lina is an aspiring Front End Developer based in Vienna." />
     <link rel="stylesheet" href="styles.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -22,10 +23,10 @@
 <nav class="d-flex justify-content-between">
     <a class="icon"><i class="fa-solid fa-house"></i></a>
 <ul>
-    <li class="active"><a href="/index.html">Home</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/work.html">Work</a></li>
-    <li><a href="/contact.html">Contact</a></li>
+    <li class="active"><a href="/index.html" title="Home">Home</a></li>
+    <li><a href="/about.html" title="About">About</a></li>
+    <li><a href="/work.html" title="Work">Work</a></li>
+    <li><a href="/contact.html" title="Contact">Contact</a></li>
 </ul>
         </nav>
     </div>
@@ -43,39 +44,29 @@
   <div class="container">
 <p> Featured Project which my best projects be choice to show </p>
 <div class="project-background">
-<div class="row">
-    <div class="col">
-      <img class="img-fluid" src="src/surfing.png"/>
-    </div>
-    
-    <div class="col">
-        <div class="project-text">
-     <h3>Surfing Project</h3>
-     <p>Page dedicated to my love of surfing. Created with HTML, CSS and JavaScript</p>
-    
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-        <h3>Weather Project</h3>
-        <p>Connected to the API openweather.org. Created with HTML, CSS and JavaScript</p>
-    </div>
-    <div class="col">
-        <img class="img-fluid" src="src/weather.png"/>
-    </div>
-  </div>
 
+    <div class="d-flex justify-content">
   <div class="row">
-    <div class="col">
-        <img class="img-fluid" src="src/dictionaryapp.png"/>
-
-    </div>
     <div class="col">
         <h3>Dictionary App</h3>
-        <p>Coming soon: a react dictionary app</p>
+        <p>Coming soon: a react dictionary app</p>    
+    </div>
+    <div class="col">
+        <img class="img-fluid" src="src/dictionaryapp.png" alt="Dictionary App Picture"/>
     </div>  
     </div>
-  </div>
+</div>
+
+    <div class="row">
+        <div class="col">
+            <h3>Check out my other work</h3>    
+        </div>
+        <div class="col">
+            <button type="button" class="buttongroup"><a class="link" href="/work.html">Go to projects page</a></button>
+        </div>
+      </div>
+    
+
 </div>
 </div>
 </div>
@@ -84,10 +75,17 @@
 
 <footer>
     <div class="footer-text">
-<p> This page was coded by <a href="/contact.html">Lina Pek</a>. It is <a href="https://www.github.com"> open-sourced</a> and hosted on <a href="https://www.netlify.com">Netlify</a>. 
+<p> This page was coded by <a href="/contact.html">Lina Pek</a>. It is <a href="https://www.github.com"> open-sourced</a> and hosted on <a href="https://www.netlify.com" title="Netlify">Netlify</a>. 
   </p>
-  <p> Fotocredit: <a  href="https://www.freepik.com/free-psd/laptop-screen-mock-up_1153561.htm#query=macbook%20mockup&position=38&from_view=search&track=sph">Image by CosmoStudio</a> on Freepik      
+
+  <div class="footer-icons">
+    <a href="https://www.github.com/carpek/new-portfolio-project" title="Github"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/pink_frog_lina" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+  <p> Fotocredit: <a  href="https://www.freepik.com/free-psd/laptop-screen-mock-up_1153561.htm#query=macbook%20mockup&position=38&from_view=search&track=sph" title="Freepik">Image by CosmoStudio</a> on Freepik      
   </p>
+
     </div>
 </footer>
 </body>
